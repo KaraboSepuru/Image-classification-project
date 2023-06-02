@@ -1,0 +1,228 @@
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 28s 34ms/step - loss: 1.5938 - accuracy: 0.4234 - val_loss: 1.2966 - val_accuracy: 0.5404
+Epoch 2/10
+
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 27s 35ms/step - loss: 1.1950 - accuracy: 0.5778 - val_loss: 1.1566 - val_accuracy: 0.5951
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 27s 34ms/step - loss: 1.0181 - accuracy: 0.6428 - val_loss: 1.0929 - val_accuracy: 0.6177
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 25s 32ms/step - loss: 0.9020 - accuracy: 0.6850 - val_loss: 1.0699 - val_accuracy: 0.6315
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 25s 32ms/step - loss: 0.8116 - accuracy: 0.7154 - val_loss: 1.0912 - val_accuracy: 0.6291
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 27s 35ms/step - loss: 0.7347 - accuracy: 0.7444 - val_loss: 1.1119 - val_accuracy: 0.6342
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 31ms/step - loss: 0.6486 - accuracy: 0.7761 - val_loss: 1.1748 - val_accuracy: 0.6222
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        896
+ conv2d_1 (Conv2D)           (None, 28, 28, 32)        9248
+ max_pooling2d (MaxPooling2D  (None, 14, 14, 32)       0
+ )
+ flatten (Flatten)           (None, 6272)              0
+ dense (Dense)               (None, 64)                401472
+ dense_1 (Dense)             (None, 10)                650
+=================================================================
+Total params: 412,266
+Trainable params: 412,266
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 30ms/step - loss: 1.5439 - accuracy: 0.4497 - val_loss: 1.2589 - val_accuracy: 0.5514
+Epoch 2/10
+
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 31ms/step - loss: 1.1298 - accuracy: 0.6052 - val_loss: 1.1164 - val_accuracy: 0.6050
+Epoch 3/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 31ms/step - loss: 0.9731 - accuracy: 0.6625 - val_loss: 1.0620 - val_accuracy: 0.6303
+Epoch 4/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 30ms/step - loss: 0.8628 - accuracy: 0.7010 - val_loss: 1.0526 - val_accuracy: 0.6351
+Epoch 5/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 24s 30ms/step - loss: 0.7668 - accuracy: 0.7351 - val_loss: 1.0724 - val_accuracy: 0.6386
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 22s 28ms/step - loss: 0.6868 - accuracy: 0.7633 - val_loss: 1.1364 - val_accuracy: 0.6277
+Epoch 7/10
+
+
+
+
+
+
+
+
+
+
+782/782 [==============================] - 23s 29ms/step - loss: 0.6072 - accuracy: 0.7894 - val_loss: 1.1610 - val_accuracy: 0.6284
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_2 (Conv2D)           (None, 30, 30, 32)        896
+ conv2d_3 (Conv2D)           (None, 28, 28, 32)        9248
+ max_pooling2d_1 (MaxPooling  (None, 14, 14, 32)       0
+ 2D)
+ flatten_1 (Flatten)         (None, 6272)              0
+ dense_2 (Dense)             (None, 64)                401472
+ dense_3 (Dense)             (None, 10)                650
+=================================================================
+Total params: 412,266
+Trainable params: 412,266
+Non-trainable params: 0
+_________________________________________________________________
+/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/kfold_cifar10.py:114: MatplotlibDeprecationWarning: The close_event function was deprecated in Matplotlib 3.6 and will be removed two minor releases later. Use callbacks.process('close_event', CloseEvent(...)) instead.
+  plt.close()
+/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/kfold_cifar10.py:125: MatplotlibDeprecationWarning: The close_event function was deprecated in Matplotlib 3.6 and will be removed two minor releases later. Use callbacks.process('close_event', CloseEvent(...)) instead.
+  plt.close()
+313/313 [==============================] - 2s 5ms/step
+313/313 [==============================] - 1s 4ms/step
+313/313 [==============================] - 1s 5ms/step
+313/313 [==============================] - 1s 4ms/step
+313/313 [==============================] - 1s 5ms/step
+1/1 [==============================] - 0s 12ms/step
+1/1 [==============================] - 0s 13ms/step
+1/1 [==============================] - 0s 13ms/step
+1/1 [==============================] - 0s 17ms/step
+1/1 [==============================] - 0s 14ms/step
+1/1 [==============================] - 0s 18ms/step
+1/1 [==============================] - 0s 19ms/step
+1/1 [==============================] - 0s 21ms/step
+1/1 [==============================] - 0s 18ms/step
+1/1 [==============================] - 0s 16ms/step

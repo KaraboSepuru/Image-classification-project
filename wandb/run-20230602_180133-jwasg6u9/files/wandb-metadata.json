@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.19.0-42-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-06-02T16:01:40.489643",
+    "startedAt": "2023-06-02T16:01:33.899762",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/kfold_cifar10.py",
+    "codePath": "kfold_cifar10.py",
+    "git": {
+        "remote": "https://github.com/Cipher73/ACML-CNN-GROUP.git",
+        "commit": "8bd2cd497282963629dae09f8477f2ff77b500d9"
+    },
+    "email": "2345106@students.wits.ac.za",
+    "root": "/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP",
+    "host": "cipher73-IdeaPad-Gaming-3-15IMH05",
+    "username": "cipher73",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 800.00125,
+        "min": 800.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 799.815,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 800.018,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 799.615,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 800.002,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 800.024,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 799.983,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 800.008,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 800.005,
+            "min": 800.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "total": 152.73926162719727,
+        "used": 133.5899658203125
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.495059967041016
+    }
+}

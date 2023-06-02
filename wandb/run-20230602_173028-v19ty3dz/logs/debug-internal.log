@@ -1,0 +1,696 @@
+2023-06-02 17:30:28,647 INFO    StreamThr :127803 [internal.py:wandb_internal():86] W&B internal server running at pid: 127803, started at: 2023-06-02 17:30:28.646139
+2023-06-02 17:30:28,659 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status
+2023-06-02 17:30:28,662 INFO    WriterThread:127803 [datastore.py:open_for_write():85] open: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/run-v19ty3dz.wandb
+2023-06-02 17:30:28,663 DEBUG   SenderThread:127803 [sender.py:send():375] send: header
+2023-06-02 17:30:28,675 DEBUG   SenderThread:127803 [sender.py:send():375] send: run
+2023-06-02 17:30:29,497 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: check_version
+2023-06-02 17:30:29,508 INFO    SenderThread:127803 [dir_watcher.py:__init__():219] watching files in: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files
+2023-06-02 17:30:29,508 INFO    SenderThread:127803 [sender.py:_start_run_threads():1124] run started: v19ty3dz with start time 1685719828.643019
+2023-06-02 17:30:29,509 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:30:29,509 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:30:29,510 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: check_version
+2023-06-02 17:30:30,257 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: run_start
+2023-06-02 17:30:30,277 DEBUG   HandlerThread:127803 [system_info.py:__init__():31] System info init
+2023-06-02 17:30:30,277 DEBUG   HandlerThread:127803 [system_info.py:__init__():46] System info init done
+2023-06-02 17:30:30,277 INFO    HandlerThread:127803 [system_monitor.py:start():181] Starting system monitor
+2023-06-02 17:30:30,278 INFO    SystemMonitor:127803 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-02 17:30:30,278 INFO    HandlerThread:127803 [system_monitor.py:probe():201] Collecting system info
+2023-06-02 17:30:30,279 INFO    SystemMonitor:127803 [interfaces.py:start():190] Started cpu monitoring
+2023-06-02 17:30:30,281 INFO    SystemMonitor:127803 [interfaces.py:start():190] Started disk monitoring
+2023-06-02 17:30:30,284 INFO    SystemMonitor:127803 [interfaces.py:start():190] Started gpu monitoring
+2023-06-02 17:30:30,288 INFO    SystemMonitor:127803 [interfaces.py:start():190] Started memory monitoring
+2023-06-02 17:30:30,289 INFO    SystemMonitor:127803 [interfaces.py:start():190] Started network monitoring
+2023-06-02 17:30:30,306 DEBUG   HandlerThread:127803 [system_info.py:probe():195] Probing system
+2023-06-02 17:30:30,311 DEBUG   HandlerThread:127803 [system_info.py:_probe_git():180] Probing git
+2023-06-02 17:30:30,329 DEBUG   HandlerThread:127803 [system_info.py:_probe_git():188] Probing git done
+2023-06-02 17:30:30,330 DEBUG   HandlerThread:127803 [system_info.py:probe():240] Probing system done
+2023-06-02 17:30:30,330 DEBUG   HandlerThread:127803 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-42-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-06-02T15:30:30.306636', 'startedAt': '2023-06-02T15:30:28.616119', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/kfold_cifar10.py', 'codePath': 'kfold_cifar10.py', 'git': {'remote': 'https://github.com/Cipher73/ACML-CNN-GROUP.git', 'commit': '8bd2cd497282963629dae09f8477f2ff77b500d9'}, 'email': '2345106@students.wits.ac.za', 'root': '/home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP', 'host': 'cipher73-IdeaPad-Gaming-3-15IMH05', 'username': 'cipher73', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 899.999875, 'min': 800.0, 'max': 4500.0}, 'cpu_freq_per_core': [{'current': 900.002, 'min': 800.0, 'max': 4500.0}, {'current': 900.017, 'min': 800.0, 'max': 4500.0}, {'current': 900.024, 'min': 800.0, 'max': 4500.0}, {'current': 899.998, 'min': 800.0, 'max': 4500.0}, {'current': 899.98, 'min': 800.0, 'max': 4500.0}, {'current': 900.001, 'min': 800.0, 'max': 4500.0}, {'current': 900.014, 'min': 800.0, 'max': 4500.0}, {'current': 900.0, 'min': 800.0, 'max': 4500.0}], 'disk': {'total': 152.73926162719727, 'used': 133.56496810913086}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 15.495059967041016}}
+2023-06-02 17:30:30,330 INFO    HandlerThread:127803 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-02 17:30:30,330 INFO    HandlerThread:127803 [system_monitor.py:probe():214] Publishing system info
+2023-06-02 17:30:30,330 DEBUG   HandlerThread:127803 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-02 17:30:30,332 DEBUG   HandlerThread:127803 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-02 17:30:30,334 INFO    HandlerThread:127803 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-02 17:30:30,354 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:30:30,354 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-02 17:30:30,371 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:30:30,372 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:30:30,509 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-metadata.json
+2023-06-02 17:30:30,510 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:30:30,510 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/requirements.txt
+2023-06-02 17:30:30,939 DEBUG   SenderThread:127803 [sender.py:send():375] send: telemetry
+2023-06-02 17:30:31,335 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/p0zd5ryg-wandb-metadata.json
+2023-06-02 17:30:31,508 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:33,509 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:33,724 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:35,510 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:37,511 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:38,779 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:39,512 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:41,513 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:43,514 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:43,815 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:45,370 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:30:45,370 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:30:45,515 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:47,516 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:48,820 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:49,517 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:51,517 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:53,518 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:54,233 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:55,519 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:30:59,250 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:30:59,521 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:00,371 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:31:00,372 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:31:00,521 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml
+2023-06-02 17:31:01,521 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:03,522 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:04,639 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:05,523 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:07,524 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:09,525 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:09,694 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:11,526 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:13,527 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:14,754 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:15,372 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:31:15,373 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:31:15,528 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:17,529 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:19,530 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:19,762 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:21,531 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:23,532 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:25,269 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:25,533 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:29,535 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:30,274 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:30,290 DEBUG   SystemMonitor:127803 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-02 17:31:30,292 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:31:30,374 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:31:30,375 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:31:31,536 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:33,537 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:35,278 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:35,541 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:37,542 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:39,543 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:40,345 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:41,544 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:43,546 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:45,370 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:45,373 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:31:45,373 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:31:45,546 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:47,548 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:49,549 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:50,877 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:51,550 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:55,551 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:55,889 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:31:57,552 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:31:59,554 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:00,293 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:32:00,373 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:32:00,374 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:32:00,921 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:01,555 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:03,556 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:05,558 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:05,963 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:07,559 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:09,560 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:11,011 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:11,561 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:13,563 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:15,373 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:32:15,373 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:32:15,564 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:16,682 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:17,564 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:19,565 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:21,566 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:21,747 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:23,568 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:25,569 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:26,761 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:27,570 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:29,572 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:30,294 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:32:30,374 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:32:30,374 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:32:31,572 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:31,798 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:33,573 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:35,574 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:36,808 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:37,575 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:39,575 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:41,576 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:42,298 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:43,577 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:45,374 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:32:45,375 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:32:45,577 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:47,330 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:47,578 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:49,579 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:51,580 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:52,358 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:53,581 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:55,582 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:57,423 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:32:57,583 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:32:59,584 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:00,295 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:33:00,374 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:33:00,375 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:33:01,585 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:02,427 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:03,586 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:05,587 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:07,460 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:09,588 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:11,590 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:12,469 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:13,591 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:15,375 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:33:15,375 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:33:15,593 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:17,531 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:17,595 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:19,596 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:21,597 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:22,538 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:23,598 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:25,599 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:27,575 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:27,600 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:29,600 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:30,295 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:33:30,375 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:33:30,375 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:33:31,944 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:33:31,945 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:33:31,945 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:33:31,946 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:33:31,947 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:33:32,367 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:33:32,368 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:33:32,602 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:33:32,602 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json
+2023-06-02 17:33:32,602 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table
+2023-06-02 17:33:32,602 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media
+2023-06-02 17:33:33,291 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:33:33,492 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/bm2ltn7s-media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json
+2023-06-02 17:33:33,603 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:33,736 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:33:33,763 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:33:34,603 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json
+2023-06-02 17:33:34,603 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table
+2023-06-02 17:33:35,404 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/9to9b7nw-media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json
+2023-06-02 17:33:37,934 INFO    wandb-upload_0:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmpd0qul0zi
+2023-06-02 17:33:39,342 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-accuracy_vs_epochs_2folds_2_layers_0001_learning_rate_fold_0_table - {'id': 'QXJ0aWZhY3Q6NDc1MjgyOTU1', 'digest': 'ae0674814e52bf35377d49bd230a1ed4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5MjA1', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:33:39,348 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:39,775 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:33:39,775 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json with policy now
+2023-06-02 17:33:39,776 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:33:39,776 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:33:39,777 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:33:39,777 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:33:39,781 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:33:40,608 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/fq3up12q-media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json
+2023-06-02 17:33:40,608 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml
+2023-06-02 17:33:40,608 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:33:42,159 INFO    wandb-upload_0:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmp__29gr60
+2023-06-02 17:33:43,624 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-loss_vs_epochs_2folds_2_layers_0001_learning_rate_fold_0_table - {'id': 'QXJ0aWZhY3Q6NDc1MjgzMDU2', 'digest': '8b9afd471ec59eb31c16dbf0e815b4ba', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5MjMz', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:33:43,625 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:33:43,625 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json with policy now
+2023-06-02 17:33:43,625 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:33:43,625 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:33:43,626 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:33:43,634 DEBUG   SenderThread:127803 [sender.py:send():375] send: telemetry
+2023-06-02 17:33:44,610 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:33:44,678 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/crpz1kdd-media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json
+2023-06-02 17:33:44,778 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:45,376 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:33:45,377 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:33:45,610 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:46,612 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:47,612 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:49,614 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:49,793 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:51,614 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:53,616 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:54,811 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:33:55,617 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:57,618 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:33:59,619 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:00,296 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:34:00,296 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:00,375 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:34:00,376 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:34:03,622 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:05,305 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:05,624 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:07,625 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:09,626 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:10,364 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:11,627 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml
+2023-06-02 17:34:11,627 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:13,628 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:15,375 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:34:15,376 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:34:15,630 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:15,720 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:17,631 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:19,632 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:20,761 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:21,633 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:23,634 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:25,635 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:26,105 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:27,636 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:29,637 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:30,297 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:34:30,376 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:34:30,377 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:34:31,111 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:31,638 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:33,640 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:35,641 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:36,143 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:37,642 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:39,646 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:41,175 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:41,644 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:43,645 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:45,380 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:34:45,380 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:34:45,647 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:46,190 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:47,648 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:51,212 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:51,654 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:53,652 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:55,653 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:56,260 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:34:57,654 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:34:59,655 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:00,297 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:35:00,381 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:35:00,381 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:35:01,656 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:03,139 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:03,659 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:05,660 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:07,662 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:08,187 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:09,663 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:11,664 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:13,821 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:15,381 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:35:15,382 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:35:15,667 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:17,669 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:18,836 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:19,670 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:21,671 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:23,673 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:23,843 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:25,673 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:27,675 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:28,859 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:29,675 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:30,298 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:35:30,382 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:35:30,383 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:35:31,676 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:33,677 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:34,408 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:35,678 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:37,679 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:39,437 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:39,680 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:41,681 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:43,682 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:44,452 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:45,382 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:35:45,382 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:35:45,684 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:47,685 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:49,478 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:49,686 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:51,687 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:53,689 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:54,522 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:35:55,690 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:35:57,691 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:00,094 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:00,299 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:36:00,382 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:36:00,382 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:36:01,695 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:03,697 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:05,106 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:05,698 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:07,699 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:09,701 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:10,134 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:11,702 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:13,704 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:15,160 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:15,382 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:36:15,383 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:36:15,706 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:17,707 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:19,709 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:20,219 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:21,710 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:23,711 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:24,962 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:24,962 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:24,963 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:24,963 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:24,963 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:36:25,713 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:25,713 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:25,964 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:26,006 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:36:26,006 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:36:26,034 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:26,422 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:36:26,461 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:26,713 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json
+2023-06-02 17:36:26,713 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json
+2023-06-02 17:36:26,713 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table
+2023-06-02 17:36:27,460 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/7zko376y-media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json
+2023-06-02 17:36:27,775 INFO    wandb-upload_1:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/14iet17a-media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json
+2023-06-02 17:36:28,123 INFO    wandb-upload_2:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmpxjhj44xx
+2023-06-02 17:36:29,473 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-accuracy_vs_epochs_2folds_2_layers_0001_learning_rate_fold_1_table - {'id': 'QXJ0aWZhY3Q6NDc1Mjg1NjUw', 'digest': 'd03c9c5851f8bb6c4386322e70c187cc', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5NzQ1', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:36:29,473 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:29,473 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json with policy now
+2023-06-02 17:36:29,473 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:29,474 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:29,474 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:29,474 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:36:29,474 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:36:29,714 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:30,294 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/fkjieotu-media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json
+2023-06-02 17:36:30,383 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 17:36:31,542 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:32,677 INFO    wandb-upload_2:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmp8ylypv6q
+2023-06-02 17:36:33,825 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:36:33,858 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:34,717 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json
+2023-06-02 17:36:34,717 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table
+2023-06-02 17:36:34,958 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-loss_vs_epochs_2folds_2_layers_0001_learning_rate_fold_1_table - {'id': 'QXJ0aWZhY3Q6NDc1Mjg1NzA2', 'digest': '8e0f69b1e810a67f4a7f712e70e6b890', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5NzYw', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:36:34,958 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:34,958 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:34,959 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json with policy now
+2023-06-02 17:36:34,959 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:34,959 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:34,960 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:34,961 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:36:34,961 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 17:36:35,253 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:35,253 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:35,254 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:35,254 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:36:35,254 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:36:35,717 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:35,717 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:36,084 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 17:36:36,114 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,146 INFO    wandb-upload_2:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/vglp6t5s-media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json
+2023-06-02 17:36:36,170 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,221 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,271 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,322 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,370 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,419 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,471 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,521 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,566 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/78qdf2xy-media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json
+2023-06-02 17:36:36,569 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,619 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 17:36:36,718 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_14_d31b1901b24199172f2f.png
+2023-06-02 17:36:36,718 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_11_3873d7fb73cd351df324.png
+2023-06-02 17:36:36,718 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_13_6cfbe4ca868b7da43a30.png
+2023-06-02 17:36:36,718 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json
+2023-06-02 17:36:36,718 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_9_0d4964922e2463ad0e2b.png
+2023-06-02 17:36:36,719 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_12_fce5a6515e44e57d6b43.png
+2023-06-02 17:36:36,719 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_15_2362c09b8f26a398daac.png
+2023-06-02 17:36:36,721 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_16_84f9dc0df9d001f30ef3.png
+2023-06-02 17:36:36,721 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_10_eaec54ee1aed958f9548.png
+2023-06-02 17:36:36,721 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_17_d77efc76eaf52c5f4f9b.png
+2023-06-02 17:36:36,721 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_18_5da75a70e31bfb9e28e6.png
+2023-06-02 17:36:36,722 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table
+2023-06-02 17:36:36,723 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media
+2023-06-02 17:36:36,723 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images
+2023-06-02 17:36:37,625 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 17:36:37,719 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:38,256 INFO    wandb-upload_3:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/zjdq89ya-media/images/image_13_6cfbe4ca868b7da43a30.png
+2023-06-02 17:36:38,282 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/6cqfts3a-media/images/image_11_3873d7fb73cd351df324.png
+2023-06-02 17:36:38,286 INFO    wandb-upload_1:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmppdmdyn13
+2023-06-02 17:36:38,561 INFO    wandb-upload_2:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/27z6schr-media/images/image_14_d31b1901b24199172f2f.png
+2023-06-02 17:36:38,729 INFO    wandb-upload_4:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/gnpx5c83-media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json
+2023-06-02 17:36:38,773 INFO    wandb-upload_7:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/fnyn1pal-media/images/image_15_2362c09b8f26a398daac.png
+2023-06-02 17:36:39,030 INFO    wandb-upload_11:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/22ll8ztl-media/images/image_18_5da75a70e31bfb9e28e6.png
+2023-06-02 17:36:39,596 INFO    wandb-upload_6:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/wn3jtkyi-media/images/image_12_fce5a6515e44e57d6b43.png
+2023-06-02 17:36:39,666 INFO    wandb-upload_8:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/7b0d3kie-media/images/image_16_84f9dc0df9d001f30ef3.png
+2023-06-02 17:36:39,904 INFO    wandb-upload_9:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/yis74lfq-media/images/image_10_eaec54ee1aed958f9548.png
+2023-06-02 17:36:40,000 INFO    wandb-upload_5:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/xlzdc1x8-media/images/image_9_0d4964922e2463ad0e2b.png
+2023-06-02 17:36:40,099 INFO    wandb-upload_10:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/2i37hvb1-media/images/image_17_d77efc76eaf52c5f4f9b.png
+2023-06-02 17:36:40,775 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-confusion_matrix_2folds_2_layers_0001_learning_rate_fold_1_table - {'id': 'QXJ0aWZhY3Q6NDc1Mjg1ODE2', 'digest': 'b5dcb08d05fd57cbaed1f598d286f8aa', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5Nzg4', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:36:40,776 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:40,776 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json with policy now
+2023-06-02 17:36:40,777 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:40,778 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:40,779 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:40,781 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:40,783 DEBUG   SenderThread:127803 [sender.py:send():375] send: config
+2023-06-02 17:36:40,783 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 17:36:41,725 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:41,726 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:42,394 INFO    wandb-upload_3:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/qizbs4cm-media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json
+2023-06-02 17:36:42,627 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-02 17:36:43,996 INFO    wandb-upload_1:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmpkhsa7o1g
+2023-06-02 17:36:45,785 INFO    SenderThread:127803 [sender.py:send_request_log_artifact():1438] logged artifact run-v19ty3dz-pr_curve_2folds_2_layers_0001_learning_rate_fold_1_table - {'id': 'QXJ0aWZhY3Q6NDc1Mjg1OTQ4', 'digest': 'cdbfb249d630b62d14a306a34fcc4111', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzQ5ODU0', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 17:36:45,801 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:46,163 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,163 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json with policy now
+2023-06-02 17:36:46,163 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,164 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,164 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,164 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,164 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_9_0d4964922e2463ad0e2b.png with policy now
+2023-06-02 17:36:46,165 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,165 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,165 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,165 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,166 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_10_eaec54ee1aed958f9548.png with policy now
+2023-06-02 17:36:46,166 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,166 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,169 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,169 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,169 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_11_3873d7fb73cd351df324.png with policy now
+2023-06-02 17:36:46,170 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,170 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,170 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,170 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,170 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_12_fce5a6515e44e57d6b43.png with policy now
+2023-06-02 17:36:46,172 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,172 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,173 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,173 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,173 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_13_6cfbe4ca868b7da43a30.png with policy now
+2023-06-02 17:36:46,175 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,175 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,176 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,176 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,176 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_14_d31b1901b24199172f2f.png with policy now
+2023-06-02 17:36:46,176 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,176 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,178 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,178 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,178 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_15_2362c09b8f26a398daac.png with policy now
+2023-06-02 17:36:46,178 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,178 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,179 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,179 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,179 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_16_84f9dc0df9d001f30ef3.png with policy now
+2023-06-02 17:36:46,180 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,180 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,181 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,181 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,181 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_17_d77efc76eaf52c5f4f9b.png with policy now
+2023-06-02 17:36:46,181 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,183 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,183 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,183 DEBUG   SenderThread:127803 [sender.py:send():375] send: files
+2023-06-02 17:36:46,183 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file media/images/image_18_5da75a70e31bfb9e28e6.png with policy now
+2023-06-02 17:36:46,184 DEBUG   SenderThread:127803 [sender.py:send():375] send: history
+2023-06-02 17:36:46,184 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 17:36:46,185 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,186 DEBUG   SenderThread:127803 [sender.py:send():375] send: exit
+2023-06-02 17:36:46,186 INFO    SenderThread:127803 [sender.py:send_exit():598] handling exit code: 0
+2023-06-02 17:36:46,186 INFO    SenderThread:127803 [sender.py:send_exit():600] handling runtime: 366
+2023-06-02 17:36:46,186 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,186 INFO    SenderThread:127803 [sender.py:send_exit():606] send defer
+2023-06-02 17:36:46,186 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 17:36:46,187 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,187 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-02 17:36:46,190 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,190 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-02 17:36:46,190 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 1
+2023-06-02 17:36:46,190 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,190 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-02 17:36:46,191 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,191 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-02 17:36:46,191 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 2
+2023-06-02 17:36:46,191 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,191 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-02 17:36:46,191 INFO    HandlerThread:127803 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-02 17:36:46,191 DEBUG   SystemMonitor:127803 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-02 17:36:46,191 INFO    HandlerThread:127803 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-02 17:36:46,191 DEBUG   SystemMonitor:127803 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-02 17:36:46,191 INFO    HandlerThread:127803 [interfaces.py:finish():202] Joined disk monitor
+2023-06-02 17:36:46,236 INFO    HandlerThread:127803 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-02 17:36:46,236 INFO    HandlerThread:127803 [interfaces.py:finish():202] Joined memory monitor
+2023-06-02 17:36:46,236 INFO    HandlerThread:127803 [interfaces.py:finish():202] Joined network monitor
+2023-06-02 17:36:46,236 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,236 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-02 17:36:46,236 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 3
+2023-06-02 17:36:46,236 DEBUG   SenderThread:127803 [sender.py:send():375] send: stats
+2023-06-02 17:36:46,237 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,237 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-02 17:36:46,237 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,237 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-02 17:36:46,237 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 4
+2023-06-02 17:36:46,237 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,237 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-02 17:36:46,237 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,237 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-02 17:36:46,237 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 5
+2023-06-02 17:36:46,238 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,238 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-02 17:36:46,238 DEBUG   SenderThread:127803 [sender.py:send():375] send: summary
+2023-06-02 17:36:46,238 INFO    SenderThread:127803 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 17:36:46,238 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,238 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-02 17:36:46,238 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 6
+2023-06-02 17:36:46,238 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,239 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-02 17:36:46,239 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,239 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-02 17:36:46,239 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 7
+2023-06-02 17:36:46,239 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:46,239 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:46,239 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-02 17:36:46,239 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:46,239 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-02 17:36:46,733 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml
+2023-06-02 17:36:46,734 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:46,956 INFO    wandb-upload_8:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/mlqdwvb4-media/images/image_10_eaec54ee1aed958f9548.png
+2023-06-02 17:36:46,994 INFO    wandb-upload_4:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/jp60ha9h-media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json
+2023-06-02 17:36:47,020 INFO    wandb-upload_5:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/ubqx1hls-media/images/image_11_3873d7fb73cd351df324.png
+2023-06-02 17:36:47,053 INFO    wandb-upload_3:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/tn5rxvt3-media/images/image_13_6cfbe4ca868b7da43a30.png
+2023-06-02 17:36:47,105 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/kjaqkdii-media/images/image_12_fce5a6515e44e57d6b43.png
+2023-06-02 17:36:47,252 INFO    wandb-upload_6:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/udsegvtx-media/images/image_17_d77efc76eaf52c5f4f9b.png
+2023-06-02 17:36:47,260 INFO    wandb-upload_2:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/g0cbmcfc-media/images/image_16_84f9dc0df9d001f30ef3.png
+2023-06-02 17:36:47,296 INFO    wandb-upload_7:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/vz9e35w7-media/images/image_14_d31b1901b24199172f2f.png
+2023-06-02 17:36:47,386 INFO    wandb-upload_1:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/p9umbzsy-media/images/image_18_5da75a70e31bfb9e28e6.png
+2023-06-02 17:36:47,630 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-02 17:36:47,735 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:47,779 INFO    wandb-upload_11:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/o8fuyh7x-media/images/image_9_0d4964922e2463ad0e2b.png
+2023-06-02 17:36:47,867 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 8
+2023-06-02 17:36:47,868 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:47,868 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-02 17:36:47,869 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:47,869 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-02 17:36:47,879 INFO    wandb-upload_9:127803 [upload_job.py:push():137] Uploaded file /tmp/tmpfyl6b2h6wandb/ul8kormq-media/images/image_15_2362c09b8f26a398daac.png
+2023-06-02 17:36:47,885 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 9
+2023-06-02 17:36:47,885 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:47,886 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-02 17:36:47,887 DEBUG   SenderThread:127803 [sender.py:send():375] send: artifact
+2023-06-02 17:36:48,737 INFO    Thread-12 :127803 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:49,478 INFO    wandb-upload_10:127803 [upload_job.py:push():92] Skipped uploading /home/cipher73/.local/share/wandb/artifacts/staging/tmpc74j6ary
+2023-06-02 17:36:50,216 INFO    wandb-upload_8:127803 [upload_job.py:push():95] Uploaded file /home/cipher73/.local/share/wandb/artifacts/staging/tmpg1px7tje
+2023-06-02 17:36:52,106 INFO    SenderThread:127803 [sender.py:send_artifact():1474] sent artifact job-https___github.com_Cipher73_ACML-CNN-GROUP.git_kfold_cifar10.py - {'id': 'QXJ0aWZhY3Q6NDc1Mjg2MDQ1', 'digest': '3b82afecf1417957dd525f3d7a0dc104', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNjkyNjc2', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDc1MjcyNzIx', 'versionIndex': 11}}, 'version': 'latest'}
+2023-06-02 17:36:52,106 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:52,107 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 17:36:52,107 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-02 17:36:52,108 INFO    SenderThread:127803 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-02 17:36:52,632 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-02 17:36:52,741 INFO    SenderThread:127803 [dir_watcher.py:finish():395] scan: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files
+2023-06-02 17:36:52,742 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml config.yaml
+2023-06-02 17:36:52,742 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json wandb-summary.json
+2023-06-02 17:36:52,743 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/requirements.txt requirements.txt
+2023-06-02 17:36:52,762 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log output.log
+2023-06-02 17:36:52,774 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-metadata.json wandb-metadata.json
+2023-06-02 17:36:52,784 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_1_9b443e6a378f06c79d6c.table.json
+2023-06-02 17:36:52,784 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_5_12eccf5e14c3d68c3bbd.table.json
+2023-06-02 17:36:52,785 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json media/table/confusion_matrix_2folds_2_layers_0.001_learning_rate_fold_1_table_7_8b95c63da0d704b76812.table.json
+2023-06-02 17:36:52,785 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json media/table/loss_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_0_table_2_4e58090f0f848f290d8f.table.json
+2023-06-02 17:36:52,786 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json media/table/accuracy_vs_epochs_2folds_2_layers_0.001_learning_rate_fold_1_table_4_5f5e9d7b43e5206c963c.table.json
+2023-06-02 17:36:52,786 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json media/table/pr_curve_2folds_2_layers_0.001_learning_rate_fold_1_table_8_c19899a28bb5e8d6ea05.table.json
+2023-06-02 17:36:52,787 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_13_6cfbe4ca868b7da43a30.png media/images/image_13_6cfbe4ca868b7da43a30.png
+2023-06-02 17:36:52,787 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_9_0d4964922e2463ad0e2b.png media/images/image_9_0d4964922e2463ad0e2b.png
+2023-06-02 17:36:52,787 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_17_d77efc76eaf52c5f4f9b.png media/images/image_17_d77efc76eaf52c5f4f9b.png
+2023-06-02 17:36:52,788 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_14_d31b1901b24199172f2f.png media/images/image_14_d31b1901b24199172f2f.png
+2023-06-02 17:36:52,788 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_12_fce5a6515e44e57d6b43.png media/images/image_12_fce5a6515e44e57d6b43.png
+2023-06-02 17:36:52,788 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_11_3873d7fb73cd351df324.png media/images/image_11_3873d7fb73cd351df324.png
+2023-06-02 17:36:52,789 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_18_5da75a70e31bfb9e28e6.png media/images/image_18_5da75a70e31bfb9e28e6.png
+2023-06-02 17:36:52,789 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_10_eaec54ee1aed958f9548.png media/images/image_10_eaec54ee1aed958f9548.png
+2023-06-02 17:36:52,789 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_15_2362c09b8f26a398daac.png media/images/image_15_2362c09b8f26a398daac.png
+2023-06-02 17:36:52,790 INFO    SenderThread:127803 [dir_watcher.py:finish():409] scan save: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/media/images/image_16_84f9dc0df9d001f30ef3.png media/images/image_16_84f9dc0df9d001f30ef3.png
+2023-06-02 17:36:52,790 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 10
+2023-06-02 17:36:52,790 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:52,791 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-02 17:36:52,792 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:52,792 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-02 17:36:52,792 INFO    SenderThread:127803 [file_pusher.py:finish():168] shutting down file pusher
+2023-06-02 17:36:53,574 INFO    wandb-upload_5:127803 [upload_job.py:push():137] Uploaded file /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/config.yaml
+2023-06-02 17:36:53,606 INFO    wandb-upload_2:127803 [upload_job.py:push():137] Uploaded file /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/requirements.txt
+2023-06-02 17:36:53,609 INFO    wandb-upload_1:127803 [upload_job.py:push():137] Uploaded file /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/output.log
+2023-06-02 17:36:53,724 INFO    wandb-upload_0:127803 [upload_job.py:push():137] Uploaded file /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/files/wandb-summary.json
+2023-06-02 17:36:53,925 INFO    Thread-11 (_thread_body):127803 [sender.py:transition_state():626] send defer: 11
+2023-06-02 17:36:53,926 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:53,926 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-02 17:36:53,927 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:53,928 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-02 17:36:53,928 INFO    SenderThread:127803 [file_pusher.py:join():173] waiting for file pusher
+2023-06-02 17:36:53,928 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 12
+2023-06-02 17:36:53,929 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:53,930 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-02 17:36:53,930 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:53,931 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-02 17:36:54,984 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 13
+2023-06-02 17:36:54,985 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:54,986 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-02 17:36:54,987 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:54,987 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-02 17:36:54,987 INFO    SenderThread:127803 [sender.py:transition_state():626] send defer: 14
+2023-06-02 17:36:54,988 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 17:36:54,988 INFO    HandlerThread:127803 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-02 17:36:54,989 DEBUG   SenderThread:127803 [sender.py:send():375] send: final
+2023-06-02 17:36:54,989 DEBUG   SenderThread:127803 [sender.py:send():375] send: footer
+2023-06-02 17:36:54,990 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: defer
+2023-06-02 17:36:54,990 INFO    SenderThread:127803 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-02 17:36:54,991 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 17:36:54,992 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 17:36:54,993 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: server_info
+2023-06-02 17:36:54,995 DEBUG   SenderThread:127803 [sender.py:send_request():402] send_request: server_info
+2023-06-02 17:36:54,996 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-02 17:36:55,004 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-02 17:36:55,293 INFO    MainThread:127803 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-06-02 17:36:55,294 INFO    MainThread:127803 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-06-02 17:36:55,296 INFO    MainThread:127803 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-06-02 17:36:55,297 DEBUG   HandlerThread:127803 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-02 17:36:55,298 INFO    HandlerThread:127803 [handler.py:finish():845] shutting down handler
+2023-06-02 17:36:55,995 INFO    WriterThread:127803 [datastore.py:close():298] close: /home/cipher73/Downloads/Honours/ACML/2023/Labs/ACML-CNN-GROUP/wandb/run-20230602_173028-v19ty3dz/run-v19ty3dz.wandb
+2023-06-02 17:36:56,293 INFO    SenderThread:127803 [sender.py:finish():1550] shutting down sender
+2023-06-02 17:36:56,293 INFO    SenderThread:127803 [file_pusher.py:finish():168] shutting down file pusher
+2023-06-02 17:36:56,294 INFO    SenderThread:127803 [file_pusher.py:join():173] waiting for file pusher
